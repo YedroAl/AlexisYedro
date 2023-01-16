@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Serif', serif;
+}
+body{
+    background-image:url(../img/fondo.png);
+    background-size: cover;
+    background-position: right top;
+    position: absolute;
+}
+.container{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.text{
+    margin-left: 40px;
+    z-index: 1;
+
+}
+.title{
+    font-size: 80px;
+    font-family: 'Raleway', sans-serif;
+    padding: 100px 0 40px 0;
+}
+.caption{
+    font-size: 20px;
+    margin: 0 0 40px 0;
+}
+button{
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: lightblue;
+    font-size: 20px;
+}
+button :hover{
+    background-color: rgba(0, 081.96, 100, 0.9);
+    text-decoration: underline;
+}
+button a{
+    color: black;
+    text-decoration: none;
+}
+.images{
+    position: relative;
+    top: 100px;
+    right: 100px;
+    left: 300px;
+    z-index: 1;
+    background-color: aqua;
+    
+    
+}
